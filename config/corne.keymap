@@ -67,11 +67,7 @@
         pswd: pswd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&none>,
-                <&macro_press>,
-                <&kp LS(T) &kp U &kp E &kp S &kp D &kp A &kp Y &kp LS(T) &kp H &kp U &kp R &kp S &kp D &kp A &kp Y &kp N1 &kp N7 &kp N0 &kp N9>;
-
+            bindings = <&kp LS(T) &kp U &kp E &kp S &kp D &kp A &kp Y &kp LS(T) &kp H &kp U &kp R &kp S &kp D &kp A &kp Y &kp N1 &kp N7 &kp N0 &kp N9>;
             label = "PSWD";
         };
     };
