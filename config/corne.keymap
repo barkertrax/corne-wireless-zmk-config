@@ -28,10 +28,10 @@
 
         symbols {
             bindings = <
-&kp GRAVE  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND         &kp DOLLAR         &kp PERCENT        &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans     &kp NUMBER_1     &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5       &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &kp MINUS
-&trans     &kp LEFT_BRACE   &kp RIGHT_BRACE    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_HASH    &kp TILDE2    &kp AT_SIGN    &trans        &kp EQUAL             &kp PLUS               &kp UNDER
-                                               &trans            &trans             &trans             &trans        &trans         &trans
+&kp GRAVE  &kp EXCLAMATION  &kp AT           &kp POUND         &kp DOLLAR         &kp PERCENT        &kp CARET     &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans     &kp NUMBER_1     &kp NUMBER_2     &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5       &kp NUMBER_6  &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &kp MINUS
+&trans     &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_HASH    &kp TILDE2    &kp DOUBLE_QUOTES  &trans        &kp EQUAL             &kp PLUS               &kp UNDER
+                                             &trans            &trans             &trans             &trans        &trans             &trans
             >;
         };
 
