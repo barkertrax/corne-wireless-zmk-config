@@ -93,9 +93,9 @@
 
         functions {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &trans  &kp F9    &kp F10   &kp F11    &kp F12   &trans
-&trans  &trans  &trans  &trans  &trans  &pswd     &trans  &trans    &up_td    &trans     &home_td  &kp PAGE_UP
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &left_td  &down_td  &right_td  &end_td   &kp PAGE_DOWN
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &none   &kp F9    &kp F10   &kp F11    &kp F12   &none
+&none   &none   &none   &none   &none   &pswd     &none   &none     &up_td    &none      &home_td  &kp PAGE_UP
+&trans  &none   &none   &none   &none   &none     &none   &left_td  &down_td  &right_td  &end_td   &kp PAGE_DOWN
                         &trans  &trans  &trans    &trans  &trans    &trans
             >;
         };
